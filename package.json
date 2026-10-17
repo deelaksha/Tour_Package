@@ -1,0 +1,41 @@
+{
+  "name": "leeaprasad-travels",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "verify:browser": "node scripts/verify-browser.mjs",
+    "test": "tsx tests/choreography.test.ts",
+    "capture:stills": "node scripts/capture-stills.mjs"
+  },
+  "dependencies": {
+    "@fontsource-variable/jetbrains-mono": "^5.2.6",
+    "@fontsource-variable/space-grotesk": "^5.2.8",
+    "@gsap/react": "2.1.2",
+    "@react-three/drei": "10.7.9",
+    "@react-three/fiber": "9.8.2",
+    "@react-three/postprocessing": "3.2.0",
+    "gsap": "3.15.0",
+    "next": "15.5.28",
+    "postprocessing": "6.39.5",
+    "react": "19.2.1",
+    "react-dom": "19.2.1",
+    "three": "0.180.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@types/three": "0.180.0",
+    "eslint": "^9",
+    "eslint-config-next": "15.5.28",
+    "puppeteer-core": "24.10.0",
+    "tsx": "^4.20.3",
+    "typescript": "5.9.3"
+  }
+}
